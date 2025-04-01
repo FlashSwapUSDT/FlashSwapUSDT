@@ -1,20 +1,20 @@
 # ⚡ Flash USDT Sender
 
 <div align="center">
-  <a href="https://github.com/likhonsheikhofficial">
+  <a href="https://github.com/FlashSwapUSDT">
     <img src="https://komarev.com/ghpvc/?username=FlashSwapUSDT&style=flat-square&color=blue" alt="Profile Views" />
   </a>
   <a href="https://github.com/FlashSwapUSDT/flash-usdt-sender/fork">
-    <img src="https://img.shields.io/github/forks/FlashSwapUSDT/flash-usdt-sender?style=social" alt="GitHub Forks" />
+    <img src="https://img.shields.io/github/forks/FlashSwapUSDT/FlashSwapUSDT?style=social" alt="GitHub Forks" />
   </a>
   <a href="https://github.com/FlashSwapUSDT/flash-usdt-sender/stargazers">
-    <img src="https://img.shields.io/github/stars/FlashSwapUSDT/flash-usdt-sender?style=social" alt="GitHub Stars" />
+    <img src="https://img.shields.io/github/stars/FlashSwapUSDT/FlashSwapUSDT?style=social" alt="GitHub Stars" />
   </a>
   <a href="https://www.npmjs.com/package/flash-usdt-sender">
     <img src="https://img.shields.io/npm/v/flash-usdt-sender?color=green&label=NPM%20Package" alt="NPM Version" />
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/FlashSwapUSDT/flash-usdt-sender" alt="License" />
+    <img src="https://img.shields.io/github/license/FlashSwapUSDT/FlashSwapUSDT" alt="License" />
   </a>
   <a href="https://youtu.be/BG7BES0pa34?feature=shared">
     <img src="https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube" alt="YouTube" />
