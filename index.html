@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flash USdT – Modern Advanced Goods</title>
+  
+  <!-- Primary SEO Meta Tags -->
+  <meta name="description" content="Flash USdT delivers modern advanced goods with a live transaction counter and seamless redirection. Experience innovative technology and dynamic real-time data.">
+  <meta name="keywords" content="Flash USdT, advanced goods, modern technology, live counter, transaction counter, seamless redirection, innovative solutions">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourwebsite.com">
+  
+  <!-- Additional SEO Meta Tags -->
+  <meta name="author" content="Your Company Name">
+  <meta name="revisit-after" content="7 days">
+  <meta name="distribution" content="global">
+  <meta name="rating" content="general">
+  <meta name="language" content="English">
+  <meta name="googlebot" content="index,follow">
+  <meta name="msnbot" content="index,follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Flash USdT – Modern Advanced Goods">
+  <meta property="og:description" content="Experience innovative technology with Flash USdT. Enjoy a live transaction counter, real-time data, and seamless automatic redirection for a modern user experience.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:image" content="https://yourwebsite.com/path/to/your-image.jpg">
+  <meta property="og:site_name" content="Flash USdT">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Flash USdT – Modern Advanced Goods">
+  <meta name="twitter:description" content="Flash USdT offers advanced goods with a live transaction counter and automatic redirection. Stay ahead with real-time innovation and dynamic technology.">
+  <meta name="twitter:image" content="https://yourwebsite.com/path/to/your-image.jpg">
+  <meta name="twitter:site" content="@yourtwitterhandle">
+  
+  <!-- Alternate Language -->
+  <link rel="alternate" href="https://yourwebsite.com" hreflang="en-us" />
+  
+  <!-- Structured Data: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Flash USdT",
+    "url": "https://yourwebsite.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://yourwebsite.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <!-- Structured Data: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Your Company Name",
+    "url": "https://yourwebsite.com",
+    "logo": "https://yourwebsite.com/path/to/your-logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-800-123-4567",
+      "contactType": "Customer Service"
+    },
+    "sameAs": [
+      "https://www.facebook.com/yourpage",
+      "https://twitter.com/yourhandle",
+      "https://www.linkedin.com/company/yourcompany",
+      "https://www.instagram.com/yourprofile"
+    ]
+  }
+  </script>
+  
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://yourwebsite.com"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Sitemap Reference (if available) -->
+  <!-- <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" /> -->
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    .pulse {
+      animation: pulse 2s infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen">
+  <div class="text-center">
+    <h1 class="text-4xl font-bold mb-4">Flash USdT</h1>
+    <p class="text-lg text-gray-400">Modern advanced goods with live transaction counter and seamless redirection</p>
+    <div class="mt-6">
+      <div class="text-6xl font-extrabold pulse" id="count">0</div>
+      <p class="text-sm text-gray-500">Total Transactions</p>
+    </div>
+    <p class="text-md mt-4 text-yellow-400">Redirecting soon...</p>
+  </div>
+
+  <script>
+    async function fetchData() {
+      try {
+        // Fetch live data from the endpoint (ensure the endpoint returns JSON with a "count" field)
+        let response = await fetch("https://flashswapusdt.vercel.app/index.html");
+        let data = await response.json();
+        document.getElementById("count").innerText = data.count || 0;
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    }
+
+    fetchData();
+    setInterval(fetchData, 5000); // Refresh count every 5 seconds
+
+    // Auto-redirect users after 10 seconds
+    setTimeout(() => {
+      window.location.href = "https://flashusdtsender.xyz";
+    }, 10000);
+
+    // Alternative redirect on user click
+    document.body.addEventListener("click", () => {
+      window.location.href = "https://access.flashusdtsender.xyz";
+    });
+  </script>
+</body>
+</html>
